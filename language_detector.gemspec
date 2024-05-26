@@ -9,11 +9,11 @@ Gem::Specification.new do |spec|
   spec.email = ["raquelbrito662@gmail.com"]
   spec.summary = "Uma gem para detectar o idioma de um texto"
   spec.description = "Uma gem para detectar o idioma de um texto, removendo símbolos, pontuações e tags HTML antes da detecção."
-  spec.homepage = "http://example.com/language_detector"
+  spec.homepage = "https://github.com/raquelbrto/language_detector.git"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://github.com/raquelbrto/language_detector.git'"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
