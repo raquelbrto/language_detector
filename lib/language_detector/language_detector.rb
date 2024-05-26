@@ -10,10 +10,8 @@ module LanguageDetector
     end
 
     def clean_text
-      # Remover tags HTML
       cleaned_text = Nokogiri::HTML(@text).text
 
-      # Remover símbolos e pontuações
       cleaned_text.gsub!(/[^a-zA-Z\s]/, '')
 
       cleaned_text
